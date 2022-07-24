@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Orbitron;
+}
+
+.container {
+    margin: 2%
+}
+
+.navbar-container {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between
+}
+
+
+
+.navbar-container .list {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-container .list  .list-item{
+    padding: 20px 40px;
+
+}
+
+.navbar-container .button-group{
+    display: flex;
+    /* margin: 0% 6% */
+}
+
+.nav-button {
+    font-family: "Poppins", Helvetica, sans-serif;
+    padding: 5px 45px;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.hero-container {
+    margin: 5%;
+    display: flex;
+    position: relative;
+}
+
+img[alt="person-hero-iamge"] {
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    width: 420px;
+}
+
+.square {
+    padding: 12% 0% 10% 5%;
+}
+
+.globe {
+    position: absolute;
+    right: 46%;
+    top: -5%;
+}
+
+.star {
+    position: absolute;
+    top: 5%;
+    right: 10%
+}
+
+
+.hero-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7%;
+}
+
+.hero-container-right > div > button{
+   margin-top: 5%;
+}
+
+.hero-heading {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.hero-description {
+    font-family: "Poppins", Helvetica, sans-serif;
+    width: 60%;
+    text-align: center;
+    color: rgb(69, 69, 69);
+    margin: 5% 0%;
+}
+
+button {    
+    background-color: transparent;
+    border-radius: 10px;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.button-email {
+    padding: 2px 50px;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.button-join {
+    padding: 2px 10px;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: black;
+    color: white;
+}
+
+.contact-heading {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(59, 59, 59);
+    margin: 50px 20px 20px 20px;
+    text-align: center;
+}
